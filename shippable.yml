@@ -19,6 +19,7 @@ build:
     - npm install
 
   post_ci:
+    - echo "finished building master branch"
     - ls -a
     - pwd
 
